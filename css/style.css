@@ -21,7 +21,35 @@ body {
 
 /* ***** main ***** */
 
-/* ****** debug ****** */
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.title-top {
+	margin-bottom: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.links {
+	width: 20%;
+}
+
+.main-content {
+	margin: 0 1%;
+	width: 58%;
+}
+
+.widget {
+	width: 20%;
+}
+
+/* ****** debug ******  */
+
 .debug .header-top {
 	height: 90px;
 	background-color: rgb(229, 121, 230);
@@ -30,4 +58,22 @@ body {
 .debug .header-bottom {
 	height: 400px;
 	background-color: rgb(225, 214, 122);
+}
+*/ .debug-main .title-top {
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+}
+
+.debug-main .links,
+.debug-main .widget {
+	width: 20%;
+	height: 500px;
+	background-color: royalblue;
+}
+
+.debug-main .main-content {
+	height: 500px;
+	background-color: red;
+	width: 58%;
 }
