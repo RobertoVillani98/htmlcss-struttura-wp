@@ -10,14 +10,24 @@ body {
 	margin: 20px;
 }
 
+/* ****** header ***** */
 .header-top {
-	height: 90px;
-	background-color: rgb(229, 121, 230);
 	margin-bottom: 20px;
 }
 
 .header-bottom {
+	margin-bottom: 20px;
+}
+
+/* ***** main ***** */
+
+/* ****** debug ****** */
+.debug .header-top {
+	height: 90px;
+	background-color: rgb(229, 121, 230);
+}
+
+.debug .header-bottom {
 	height: 400px;
 	background-color: rgb(225, 214, 122);
-	margin-bottom: 20px;
 }
