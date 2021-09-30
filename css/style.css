@@ -48,6 +48,11 @@ body {
 	width: 20%;
 }
 
+/* ****** footer ***** */
+.contatti {
+	margin-top: 20px;
+}
+
 /* ****** debug ******  */
 
 .debug .header-top {
@@ -76,4 +81,9 @@ body {
 	height: 500px;
 	background-color: red;
 	width: 58%;
+}
+
+.debug .contatti {
+	height: 60px;
+	background-color: rgb(229, 121, 230);
 }
