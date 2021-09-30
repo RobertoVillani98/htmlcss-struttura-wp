@@ -4,3 +4,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	padding: 0 80px;
+	margin: 20px;
+}
+
+.header-top {
+	height: 90px;
+	background-color: rgb(229, 121, 230);
+	margin-bottom: 20px;
+}
+
+.header-bottom {
+	height: 400px;
+	background-color: rgb(225, 214, 122);
+	margin-bottom: 20px;
+}
